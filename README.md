@@ -14,27 +14,6 @@ A Flask-based HTTPS face recognition attendance system using PCA, LBP, HOG, and 
 
 ---
 
-##  Folder Structure
-
-```
-face-recognition-flask-attendance/
-├── main.py
-├── attendance.csv
-├── models/
-│   ├── svm_final_tuned_model.pkl
-│   ├── scaler.pkl
-│   ├── pca.pkl
-│   └── label_map.pkl
-├── template/
-│   ├── face.htm
-│   ├── cert.pem
-│   └── key.pem
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
----
 
 ##  How It Works
 
