@@ -4,17 +4,17 @@ A Flask-based HTTPS face recognition attendance system using PCA, LBP, HOG, and 
 
 ---
 
-## 🔧 Features
+##  Features
 
-- 🧠 **Face Recognition** using PCA + LBP + HOG features
-- ✅ **SVM Classifier** fine-tuned with GridSearchCV
-- 🔐 **Secure HTTPS** Flask server with your own SSL certificate
-- 📱 **Mobile Access via QR Code**
-- 🗂️ **Attendance Logging** with timestamps in a CSV file
+-  **Face Recognition** using PCA + LBP + HOG features
+-  **SVM Classifier** fine-tuned with GridSearchCV
+-  **Secure HTTPS** Flask server with your own SSL certificate
+-  **Mobile Access via QR Code**
+-  **Attendance Logging** with timestamps in a CSV file
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 face-recognition-flask-attendance/
@@ -36,26 +36,7 @@ face-recognition-flask-attendance/
 
 ---
 
-## 🚀 How to Run
-
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-2. Start the Flask server:
-```bash
-python main.py
-```
-
-3. Scan the QR code generated, or open in browser:
-```
-https://<your-local-ip>:5000
-```
-
----
-
-## 🧪 How It Works
+##  How It Works
 
 - Accepts a webcam-captured image (base64) from the front-end
 - Extracts features using LBP and HOG
@@ -65,7 +46,7 @@ https://<your-local-ip>:5000
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.8+
 - Flask
