@@ -37,6 +37,6 @@ A Flask-based HTTPS face recognition attendance system using PCA, LBP, HOG, and 
 
 ---
 
-## 🛡️ License
+##  License
 
 This project is licensed under the MIT License.
