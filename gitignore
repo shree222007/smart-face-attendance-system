@@ -1,0 +1,31 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+
+# Model files
+*.pkl
+
+# Dataset
+*.jpg
+*.png
+*.jpeg
+*.pgm
+
+# QR code and attendance log
+qr_code.png
+attendance.csv
+
+# Certificates (DO NOT upload your certs)
+*.pem
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
